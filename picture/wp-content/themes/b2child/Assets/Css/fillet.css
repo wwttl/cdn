@@ -1,0 +1,111 @@
+/*20px 圆角*/
+ .user-sidebar-count li, .user-money-and-credit > div, .com-form-textarea, .content-hidden-info, .content-ds, #nuandao .entry-content pre, .error-404, .verify-content, .vip-faq, .verify-step-2, .entry-content p img, .com-form-input input, .com-form-textarea textarea, .erptitle, .download-current, .download-page-box h1, .download-meta > ul, .tqma .fuzhi, .entry-content .box, .b2-widget-post-thumb-product-img img, .custom-page-row.gold-row, .mission-tk, .single-circle .b2-single-content .circle-topic-item, .widget-circle-info-desc, .shop-normal-list-box, .tax-title h1::after, .tags-page ul li a, .user-money, .user-credit, .gold-bor, .gold-page-list, .input-file, .verify-chenghao .verify-shiming, .verify-shiming, .entry-content p iframe, .modal.address-box .pay-box-content li.picked, .pay-box-content li:hover, .ds-box .modal-content ul.ds-money li div, ul.ds-money li label, .news-content .modal-content, .login-social-button-bottom, .login-box-content .login-social-button-bottom a, .site-terms, .user-w-rw-bg, .single-document-footer, .comment-img-box img, .document-cat-item, .qmsg .qmsg-content, .qmsg .qmsg-item .qmsg-count, .forget-pass-info, .recaptcha-img img, .collection-posts li span, .collection-number.ar, .my-dmsg-content, .dmsg-content p, .pager-center, .search #primary-home .box, .content-ds-users li img, .dmsg-to-textarea, .gg-box .gg-box-title .title-bg, .button.empty, #TA-con, .authorCard--title .button--follow,.message-content p.comment span,.vip-current,.cat-picked span,.b2-menu-1 .sub-menu-0 li a,.lv-icon i,.has_children .sub-menu,.circle-my-create ul li > div,.comment-smile-box,.ask-reward-input .zhanwei span,.all-circles-item-list li > div,.circle-users-date,#circle-topic-list .topic-type-menu,#item-name b,.single-link-content,.b2-widget-box .link-list li .link-in,#b2-stream,.infomation-list-top-l span{
+    border-radius: 20px !important;
+}
+/*20px top左右圆角*/
+ .task-title, .top-user-info-box, .verify-content img, .dark-room-header::after, .dark-room-header img,.po-topic-textarea .topic-title.required{
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+/*20px bottom左右圆角*/
+ .buy-resout-box, .mission-page-list ul li:last-child, .my-circle-list .circle-my-create, .gold-page-list ul li:last-child, .news-item-date p span:last-child, li.widget-post-small:last-child, .slider-info-box{
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+/*10px top左bottom左圆角*/
+ .gdd-quick-link-buy-vip__hover-block, .gdd-quick-link-buy-vip__popover, .gdd-quick-link-buy-vip__popover div, .bar-normal, .bar-footer, .bar-top {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+/*10px 圆角*/
+ .circle-admin-info>div {
+    border-radius: 10px !important;
+}
+/*15px 圆角*/
+ .topic-more-menu ul, .topic-footer-right button, .topic-comment-form.show textarea, .bar-user-info-row, .content-footer-poster button.poster-span, .content-footer-zan-cai span, .b2-widget-post-thumb-img .picture img, .post-news .news-des-textarea, .post-news > div, .post-news label input, select, .single-document-search input {
+    border-radius: 15px !important;
+}
+/*100% 圆角*/
+ .gold-top-list .gold-top-avatar img, .following-avatar img, .user-avatar-chose li, .user-avatar-chose li img, .user-open-avatar img, .user-open-avatar {
+    border-radius: 100% !important;
+}
+/*文章内页顶部作者头像*/
+ .post-meta-left .avatar {
+    border-radius: 100%;
+}
+/*文章内页作者面板头像*/
+ .w-a-info img {
+    border-radius: 100%;
+}
+/*文章内页用户面板头像*/
+ .user-w-avatar img {
+    border-radius: 100%;
+}
+/*侧栏小工具签到排行头像圆角*/
+ .mission-today-list img {
+    border-radius: 100%;
+}
+/*签到管理页头像圆角*/
+ .mission-page-list li .avatar {
+    border-radius: 100%;
+}
+/*卡片阴影*/
+.box, .side-fixed{
+    box-shadow: 0px 0px 10px 0px rgb(189 189 189 / 50%);
+}
+/*文章内页底部评论者头像圆角*/
+ .comment .gravatar img, .com-info img {
+    border-radius: 100%;
+}
+/*个人主页头像圆角*/
+ .user-panel .avatar {
+    border-radius: 100%;
+}
+.user-panel .avatar:hover .editor-avatar {
+    border-radius: 100%;
+}
+/*菜单栏头像点击*/
+ .top-user-box-drop .avatar {
+    border-radius: 100%;
+}
+/*顶部头像圆角*/
+ .top-user-avatar img, .header-user .top-user-box, .social-top .top-user-avatar img {
+    border-radius: 50%;
+}
+/*文章内页图片加圆角和阴影*/
+ .entry-content p img {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
+}
+/*文章图片居中*/
+ .entry-content img['height'!='17px'] {
+    display: flex;
+    margin: 0 auto;
+}
+/*圆角*/
+.user-w-rw .user-w-rw-bg {
+    border-radius: 20px !important;
+}
+/*手机版*/
+ @media screen and (max-width: 768px) {
+     /*手机端下载圆角*/
+     .download-list{
+         border-radius: 20px!important;
+     }
+     /*手机菜单下拉背景圆角*/
+     .top-menu-ul>li.depth-0 > a i.b2-arrow-down-s-line{
+         border-radius: 100%;
+         height: 20px;
+         width: 20px;
+         right: 2px;
+         top: 2px;
+         line-height: 20px;
+     }
+     /*文章内页评论图片圆角*/
+    .comment-img-box img {
+        border-radius: 5px !important;
+    }
+ }
+.news-item-date p span:last-child{
+    border-bottom-left-radius: 14px !important;
+    border-bottom-right-radius: 14px !important;
+}

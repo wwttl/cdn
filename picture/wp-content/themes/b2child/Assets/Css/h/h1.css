@@ -1,0 +1,35 @@
+ .entry-content > h1::before {
+    content:'#';
+    margin-right: 10px;
+    display: block;
+}
+ .entry-content > h2::before {
+    content:'#';
+    margin-right: 10px;
+    display: block;
+}
+ .entry-content > h3::before {
+    content:'#';
+    margin-right: 10px;
+    display: block;
+}
+ .entry-content > h4::before {
+    content:'#';
+    margin-right: 10px;
+    display: block;
+}
+ .entry-content > h5::before {
+    content:'#';
+    margin-right: 10px;
+    display: block;
+}
+ .entry-content > h6::before {
+    content:'#';
+    margin-right: 10px;
+    display: block;
+}
+/*文章内页标题加粗*/
+ .entry-content > h1, .entry-content > h2, .entry-content > h3, .entry-content > h4, .entry-content > h5, .entry-content > h6 {
+    font-weight: 400;
+    display: flex;
+}

@@ -1,0 +1,8 @@
+/*移动端底部菜单*/
+@media (max-width: 780px) {
+.mobile-footer-menu {
+    border-radius: 16px;
+    margin-bottom: 3px;
+}
+}
+/*移动端底部菜单结束*/

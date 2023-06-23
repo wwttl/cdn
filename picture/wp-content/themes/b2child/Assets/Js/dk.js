@@ -1,0 +1,1 @@
+    $(function(){$('.com-form-button-l').after('<p id="mrxu_daka" style="color:#65adff">#点我打卡</p>');});$(function() {$("#mrxu_daka").click(function() { $.getJSON("https://v1.hitokoto.cn/",function(xu){ $("#textarea").val(xu.hitokoto);});});}); 

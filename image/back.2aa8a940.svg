@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <g id="pc端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-8" transform="translate(-14.000000, -244.000000)">
+            <g id="编组备份-7" transform="translate(0.000000, 52.000000)">
+                <g id="编组" transform="translate(22.000000, 200.000000) rotate(-180.000000) translate(-22.000000, -200.000000) translate(14.000000, 192.000000)">
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M8.16396103,4 L9.57817459,5.41421356 L14.5279221,10.363961 L13.1137085,11.7781746 L8.164,6.829 L3.21421356,11.7781746 L1.8,10.363961 L8.16396103,4 Z" id="形状结合" fill="#98A3B7" transform="translate(8.163961, 7.889087) rotate(-180.000000) translate(-8.163961, -7.889087) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,60 @@
+@media screen and (min-width: 768px){
+.topic-footer-left {
+    margin-left: 50px;
+}
+.aside-bar .bar-item-desc {
+    border-radius: 15px;
+    right: 50px;
+    color: #fff;
+}
+.bar-normal > div, .bar-footer > div {
+    margin-bottom: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px #a9a9a9;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.bar-item-desc {
+    box-shadow: 0px 2px 10px rgb(181 181 181 / 32%);
+    border: 1px solid #b7b7b759!important;
+    background-color: #0066ff;
+}
+.bar-footer .bar-item-desc {
+    box-shadow: none;
+    border:none!important;
+}
+.gdd-quick-link-buy-vip:hover .gdd-quick-link-buy-vip__popover {
+opacity: 1;
+}
+.gdd-quick-link-buy-vip__popover {
+    transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    transition: all .3s;
+}
+.bar-middle .bar-normal, .bar-footer, .bar-top, .gdd-quick-link-buy-vip {
+    border-radius: 12px;
+}
+.gdd-quick-link-buy-vip__hover-block {
+    border-radius: 12px;
+}
+.aside-bar > div > div + div {
+     border-top: none; 
+    box-shadow: none; 
+     background-color: transparent;
+}
+.bar-item:hover i, .bar-item.active:hover i {
+    color: #0066ff;
+}
+.bar-middle {
+    right: 50px;
+    z-index: 999;
+}
+.gdd-quick-link-buy-vip__popover{
+display: none;
+    opacity: 0;
+}
+.bar-middle {
+    bottom: 80px;
+}
+}

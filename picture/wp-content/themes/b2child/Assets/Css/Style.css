@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/*
+ * ------------------------------------------------------------------------------
+ * 消息冒泡
+ * 来源于GitHub
+ * ------------------------------------------------------------------------------
+ */
+
+/*评论弹幕*/
+.form-control {
+	display: inline-block;
+	width: auto;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+/*组件主样式*/
+.overflow-text {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	opacity: 0;
+	clear: both;
+	padding: 0 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	max-width: 100%;
+	color: #fff;
+	animation: colorchange 3s infinite alternate;
+	-webkit-animation: colorchange 3s infinite alternate;
+}
+
+@keyframes colorchange {
+	0% {
+		color: red;
+	}
+
+	50% {
+		color: green;
+	}
+
+	100% {
+		color: #6993f9;
+	}
+}
+
+#Danmu {
+	height: 275px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 2;
+	max-width: 100%;
+	right: 50px;
+	bottom: 30px;
+	pointer-events: none;
+}
+
+.overflow-text {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	opacity: 0;
+	padding: 3px 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	max-width: 100%;
+	color: #fff!important;
+	animation: colorchange 3s infinite alternate;
+	-webkit-animation: colorchange 3s infinite alternate;
+}
+
+#Danmu li {
+	display: flex;
+	opacity: 0;
+	border-radius: 20px;
+	color: #fff;
+	padding: 5px 10px 5px 10px;
+	clear: both;
+	font-size: 13px;
+	height: 30px;
+	float: right;
+	line-height: 20px;
+}
+
+#Danmu li i {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#Danmu .info_zianv {
+	text-decoration: underline;
+	font-weight: 600;
+	color: #fff;
+}
+
+#Danmu .info_zianv:hover {
+	color: #fff!important;
+}
+
+#Danmu li a:first-child {
+	margin-right: 6px;
+	width: 20px;
+}
+
+#Danmu li a:last-child,#Danmu li a:last-child font {
+	color: #fff !important;
+}
+
+#Danmu li a:last-child n {
+	text-decoration: underline;
+	margin: 0 5px;
+}
+
+#Danmu li img {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	vertical-align: inherit;
+	margin-right: 6px;
+	pointer-events: auto;
+}
+
+@keyframes colorchange {
+	0% {
+		color: red;
+	}
+
+	50% {
+		color: green;
+	}
+
+	100% {
+		color: #6993f9;
+	}
+}
+/*弹幕跳转功能*/
+.xtw-dm-content {
+
+z-index: 999999;
+
+}
+
+.xtw-dm-content a {
+
+pointer-events: auto;
+
+}
+ /*需要显示手机端把此段删除即可*/
+@media (max-width: 780px) {
+#Danmu {
+right: 0;
+bottom: 57px;
+display: none;
+}
+}
+/*评论弹幕结束*/

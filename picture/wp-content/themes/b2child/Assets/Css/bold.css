@@ -1,0 +1,7 @@
+.bar-normal > div, .bar-footer > div {
+    position: relative;
+    padding: 7px 10px;
+}
+.bar-item i {
+    font-weight: 600 !important;
+}

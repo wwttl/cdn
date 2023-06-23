@@ -1,0 +1,40 @@
+.single-article .entry-content> h2{
+    font-weight: bold;
+    background-color: #f6f6f6;
+    margin: 20px 0;
+    border-bottom: 0px solid #FF1493;
+    padding: 5px 12px;
+    border-left: 5px solid #FF1493;
+    border-radius: 0rem;
+    margin: 12px 0px;
+}
+.single-article .entry-content> h3 {
+    font-weight: bold;
+    background-color: #f6f6f6;
+    margin: 20px 0;
+    border-bottom: 0px solid #4169E1;
+    padding: 5px 12px;
+    border-left: 5px solid #4169E1;
+    margin: 12px 0px;
+    border-radius: 0rem;
+}
+.single-article .entry-content> h4 {
+    font-weight: bold;
+    background-color: #f6f6f6;
+    margin: 20px 0;
+    border-bottom: 0px solid #3CB371;
+    padding: 5px 12px;
+    border-left: 5px solid #3CB371;
+    margin: 12px 0px;
+    border-radius: 0rem;
+}
+.single-article .entry-content> h5 {
+    font-weight: bold;
+    background-color: #f6f6f6;
+    margin: 20px 0;
+    border-bottom: 0px solid #FFC0CB;
+    padding: 5px 12px;
+    border-left: 5px solid #FFC0CB;
+    margin: 12px 0px;
+    border-radius: 0rem;
+}

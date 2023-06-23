@@ -1,0 +1,6 @@
+.single-article .entry-content>h1,.single-article .entry-content>h2,.single-article .entry-content>h3,.single-article .entry-content>h4,.single-article .entry-content>h5,.single-article .entry-content>h6 {
+    padding: 8px;
+    line-height: 28px;
+    background: #fafafa;
+    border-left: 4px solid #0c85ff;
+}

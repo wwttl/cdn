@@ -1,0 +1,28 @@
+.single-article .entry-content>h1,.single-article .entry-content>h2,.single-article .entry-content>h3,.single-article .entry-content>h4,.single-article .entry-content>h5,.single-article .entry-content>h6 {
+    position: relative;
+    padding: 5px 0 15px;
+    color: #424242;
+    font-size: 18px;
+    display: -webkit-inline-box;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    z-index: 16;
+    font-weight: 700;
+    line-height: 30px;
+}
+.single-article .entry-content>h1:hover:before,.single-article .entry-content>h2:hover:before,.single-article .entry-content>h3:hover:before,.single-article .entry-content>h4:hover:before,.single-article .entry-content>h5:hover:before,.single-article .entry-content>h6:hover:before {
+    width: 100%;
+    transition: all .5s;
+}
+.single-article .entry-content>h1:before,.single-article .entry-content>h2:before,.single-article .entry-content>h3:before,.single-article .entry-content>h4:before,.single-article .entry-content>h5:before,.single-article .entry-content>h6:before {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: -1;
+    width: 45%;
+    height: 2px;
+    background: #1b54bc;
+    content: " ";
+    border-radius: 20px;
+    transition: all .5s;
+}

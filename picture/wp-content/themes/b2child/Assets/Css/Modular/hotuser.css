@@ -1,0 +1,702 @@
+/* 图酷网会员列表 */
+@media (min-width:768px) {
+    .home-section-designs {
+        display: block;
+        margin-right: -16px
+    }
+
+    .home-section-designs .item-wrap {
+        display: block;
+        width: calc(50% - 16px);
+        display: flex;
+        float: left;
+        margin-right: 16px
+    }
+}
+
+@media (min-width:1024px) {
+    .home-section-designs .items .item-wrap {
+        width: calc(25% - 16px);
+        margin-right: 16px
+    }
+
+    .index-circle-box {
+        margin: -15px
+    }
+
+    .home-section-designs .items {
+        overflow: hidden;
+        margin: 0px;
+        margin-right: 0px;
+        display: flex
+    }
+}
+
+@media (max-width:768px) {
+    .home-section-designs .items .item-wrap {
+        width: 50%
+    }
+
+    .home-section-designs .items {
+        overflow: hidden;
+        margin: 0px
+    }
+}
+
+.home-section-designs .items .item {
+    background: #fff;
+    width: 100%;
+    overflow: hidden;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s
+}
+
+.home-section-designs .items .item:hover {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+
+.home-section-designs .items .item-thumb .thumb {
+    padding-top: 100%
+}
+
+.home-section-designs .items .item-thumb .thumb:hover {
+    opacity: .8
+}
+
+.home-section-designs .items .item-main {
+    padding: 15px 0 0
+}
+
+@media (min-width:768px) {
+    .home-section-designs .items .item-main {
+        padding: 10px
+    }
+}
+
+.home-section-designs .items .item-main h2 {
+    font-size: 16px;
+    color: #3c3c3c;
+    font-weight: 600;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+    margin-bottom: 15px
+}
+
+.home-section-designs .items .item-main h2 span {
+    margin-left: 5px;
+    font-size: 13px;
+    color: #b2b2b2
+}
+
+.home-section-designs .items .item-main h2:hover {
+    color: #3385ff
+}
+
+.home-section-designs .items .item-main h4 {
+    margin: 0 -5px;
+    font-weight: 400;
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden
+}
+
+.one_list_a {
+    font-size: 13px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    width: 100%;
+    background: #ffffff;
+    color: #bcbcbc
+}
+
+.home-section-designs .items .item-main h4 span {
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: #e5f0ff;
+    font-size: 12px;
+    color: #3385ff;
+    padding: 0 5px;
+    margin: 0 5px;
+    white-space: nowrap
+}
+
+.home-section-designs .items .item-main h4 span:hover {
+    background: #3385ff;
+    color: #fff
+}
+/*首页设计师列表*/
+.one_sjs .one_itme {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-moz-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin-top: 24px;
+}
+
+.one_sjs .one_itme .one_itme_sjs:hover .one_sjs_desc {
+	max-height: 400px;
+}
+
+.one_sjs .one_itme .one_itme_sjs {
+	cursor: pointer;
+	width: calc(20% - 10px);
+	height: 406px;
+	border-radius: 4px;
+	background-size: 100% 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-moz-box-orient: vertical;
+	-moz-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: relative;
+}
+
+.one_sjs .one_itme .one_itme_sjs .one_sjs_name {
+	position: absolute;
+	bottom: 21px;
+	left: 21px;
+	overflow: hidden;
+}
+
+.one_sjs .one_itme .one_itme_sjs .one_sjs_yw {
+	font-size: 16px;
+	color: #fff;
+	line-height: 25px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.one_sjs .one_itme .one_itme_sjs .one_sjs_rq {
+	font-size: 16px;
+	line-height: 16px;
+	color: #fff;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-moz-box-orient: horizontal;
+	-moz-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.one_sjs .one_itme .one_itme_sjs .one_sjs_rq img {
+	width: 11px;
+	height: 14px;
+	margin-left: 2px;
+}
+
+.one_sjs .one_itme .one_itme_sjs .one_sjs_desc {
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	margin-right: 21px;
+	max-height: 0;
+	overflow: hidden;
+	color: #fff;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.one_sjs .one_itme .one_itme_sjs .one_sjs_desc .one_sjs_desc_lin {
+	margin-top: 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 8;
+}
+
+.one_sjs .one_itme .one_itme_sjs .one_sjs_desc .one_sjs_gz {
+	width: 100%;
+	height: 45px;
+	background-color: #cb0018;
+	line-height: 45px;
+	text-align: center;
+	color: #fff;
+	margin-top: 8px;
+	border-radius: 8px;
+}
+
+.one_sjs .one_itme .one_itme_sjs >img {
+	margin-top: 32px;
+	width: 199px;
+	height: 199px;
+	border-radius: 50%;
+}
+
+.one_sjs .one_itme .one_itme_sjs .concerned___BLy1I {
+	border: 1px solid #000;
+	color: #000;
+}
+
+.one_sjs .one_itme .one_itme_sjs >div:nth-of-type(4) {
+	margin-top: 28px;
+	padding: 0 34px;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	word-break: break-all;
+	width: 342px;
+	word-wrap: break-word;
+}
+
+.one_sjs .one_itme .one_itme_sjs >div:nth-of-type(4) span {
+	color: #1e1e1e;
+	font-size: 16px;
+	line-height: 27px;
+}
+
+.one_sjs .one_itme .one_itme_sjs >div:nth-of-type(4) >span:nth-of-type(1) {
+	font-weight: bold;
+}
+
+.software___2qnev {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-moz-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.software___2qnev .title___1r231 {
+	margin-bottom: 32px;
+}
+
+.software___2qnev .title___1r231 >div:nth-of-type(1) {
+	color: #333;
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.software___2qnev .title___1r231 >div:nth-of-type(2) {
+	margin-top: 16px;
+	color: #bbb;
+	font-size: 16px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-moz-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.software___2qnev .title___1r231 >div:nth-of-type(2) a {
+	font-size: 16px;
+	font-weight: 600;
+	color: #333;
+	margin-left: 24px;
+}
+
+.software___2qnev .title___1r231 >div:nth-of-type(2) >span:nth-of-type(1) {
+	cursor: auto;
+}
+
+.software___2qnev .softwareList___1Uqlo {
+	width: 985px;
+	margin-top: 52px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-moz-box-orient: horizontal;
+	-moz-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+/**精美列表*/
+#OneCAD .hotUser {
+	margin-top: 20px;
+}
+#OneCAD .hotUser .hotUser-title {
+	position: relative;
+	margin-bottom: 15px;
+	width: 1180px;
+}
+#Onecad_hotuser i.b2-vrenzhengguanli {
+    position: static;
+    bottom: -4px;
+    right: -4px;
+    font-weight: 400;
+    line-height: 25px;
+    background: #fff;
+    border-radius: 100%;
+    width: 25PX;
+    height: 25px;
+    display: inline-block;
+    font-size: 25px;
+    color: #ff3a55!important;
+}
+#OneCAD .hotUser h2 {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+#OneCAD .hotUser-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+}
+
+#OneCAD .hotUser-list .itme {
+	position: relative;
+	width: 25%;
+	padding-left: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+#OneCAD .hotUser-list .itme .user-vip {
+	border-radius: 3px;
+	display: inline-block;
+	background: linear-gradient(180.03deg, #393F68 0%, #24263C 100%);
+	padding: 3px 6px;
+	font-size: 11px;
+	line-height: 15px;
+	height: auto;
+}
+
+#OneCAD .hotUser-list .itme>div {
+	background-color: #fff;
+	transition: all .3s;
+}
+
+#OneCAD .hotUser-list .itme:nth-child(4n) {
+	margin-right: 0;
+}
+
+#OneCAD .hotUser-list .itme>div:hover {
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .05);
+	-webkit-transform: translateY(-3px);
+	-ms-transform: translateY(-3px);
+	transform: translateY(-3px);
+}
+
+#OneCAD .hotUser-list .i-banner {
+	position: relative;
+	height: 120px;
+	background: #ccc;
+}
+
+#OneCAD .hotUser-list .i-banner .i-cover {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#OneCAD .hotUser-list .i-banner .avatar-wrap {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin: -42px;
+}
+
+#OneCAD .hotUser-list .avatar-wrap img {
+	width: 84px;
+	height: 84px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+#OneCAD .hotUser-list .itme .i-content {
+	padding: 54px 8px 8px 8px;
+}
+
+#OneCAD .hotUser-list .itme .i-inline {
+	height: 28px;
+	line-height: 28px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#OneCAD .hotUser-list .itme .i-username {
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#OneCAD .hotUser-list .itme .i-desc {
+	display: inline-flex;
+	font-size: 12px;
+	background: #f3f3f3;
+	padding: 5px 6px;
+	margin: 10px 0;
+	color: #606266;
+}
+
+#OneCAD .hotUser-list .itme .i-follow {
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+#OneCAD .hotUser-list .itme .i-follow span {
+	color: #909399;
+	display: inline-block;
+	position: relative;
+	margin: 0 5px;
+}
+
+#OneCAD .hotUser-list .itme .i-follow span b {
+	color: #333;
+	font-weight: bold;
+	margin: 0 3px;
+}
+
+#OneCAD .post-style-5-top {
+    margin-top: 0;
+}
+/*首页设计师列表01*/
+.our-team {
+	padding: 20px 0 0px;
+	background: #ffffff;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.demo .user-s-info-name {
+    margin-top: 0px;
+    display: flex;
+    flex-flow: column;
+    margin-left: 0px;
+}
+.demo .user-s-info-desc {
+    font-size: 13px;
+    margin-top: 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    color: #bcbcbc;
+    height: 55px;
+    line-height: 19px;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+}
+.our-team .pic{
+    display:inline-block;
+    width:130px;
+    height:130px;
+    margin-bottom:10px;
+    z-index:1;
+    position:relative
+}
+.our-team .pic:before{
+    content:"";
+    width:100%;
+    height:0;
+    border-radius:50%;
+    position:absolute;
+    bottom:135%;
+    right:0;
+    left:0;
+    opacity:1;
+    transform:scale(3);
+    transition:all 0.3s linear 0s
+}
+.our-team:hover .pic:before{
+    height:100%
+}
+.our-team .pic:after{
+    content:"";
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1
+}
+.row{
+}
+.col-sm-6{
+    cursor:pointer;
+    margin-right:16px;
+    float:left;
+    border-radius:4px;
+    background-size:100% 100%;
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -moz-box-orient:vertical;
+    -moz-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -webkit-box-align:center;
+    -moz-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    position:relative
+}
+.our-team .pic img{
+    width:100%;
+    height:auto;
+    border-radius:50%;
+    transform:scale(1);
+    transition:all 0.9s ease 0s
+}
+.our-team:hover .pic img{
+    box-shadow:0 0 0 8px #f7f5ec;
+    transform:scale(0.8)
+}
+.our-team .team-content{
+    margin-bottom:30px
+}
+.our-team .title{
+    font-size:18px;
+    font-weight:500;
+    color:#4e5052;
+    letter-spacing:1px;
+    text-transform:capitalize;
+    margin-bottom:5px;
+    height: 29px;
+}
+.our-team .post{
+    display:block;
+    font-size:15px;
+    color:#4e5052;
+    text-transform:capitalize
+}
+.our-team .social{
+    width:100%;
+    padding:0;
+    margin:0;
+    position:absolute;
+    bottom:-100px;
+    left:0;
+    transition:all 0.5s ease 0s
+}
+.our-team:hover .social{
+    bottom:0
+}
+.our-team .social li{
+    display:inline-block
+}
+.our-team .social li a{
+    display:block;
+    padding:10px;
+    font-size:17px;
+    color:#fff;
+    transition:all 0.3s ease 0s
+}
+.our-team .social li a:hover{
+    color:#eb1768;
+    background:#f7f5ec
+}
+.user-s-follow a{
+    border-radius:4px;
+    color:#fff;
+    padding:5px 10px;
+    transition:opacity .2s;
+    position:relative;
+    cursor:pointer;
+    font-size:12px;
+    line-height:25px;
+    margin:0;
+    white-space:nowrap;
+    border-radius:5px
+}
+@media only screen and (max-width:990px){
+    .our-team{
+        margin-bottom:16px
+    }
+    .home-authors .item,.home-authors .group-item .item-images .img-item{
+        margin-bottom:16px
+    }
+}
+.our-team .pic:before,.our-team .social,.our-team .pic:after{
+    background: #ff3c56;
+    color: #fff;
+}
+@media screen and (max-width: 768px){
+.our-team {
+    margin-bottom: 5px;
+}
+.home-section-designs .items {
+    overflow: hidden;
+    margin: 0px;
+    margin-left: 0px;
+    margin-left: -5px;
+}
+.home-section-designs .items .item-wrap {
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+}
+.our-team {
+    margin-bottom: 5px;
+}
+.home-section-designs .items .item-wrap {
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+}
+.our-team .pic {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 5px;
+}
+.our-team .title {
+    font-size: 18px;
+    font-weight: 500;
+}
+}
+.our-team .pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+    vertical-align: top;
+}
+@media (min-width:768px) {
+    .home-section-designs .items .item-main {
+        padding: 10px
+    }
+}

@@ -1,0 +1,74 @@
+.siteCount {
+    position: relative;
+    padding: 60px 0;
+    margin-top: 30px;
+}
+.siteCount .cover {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.siteCount .wrapper {
+    position: relative;
+    z-index: 5;
+}
+.siteCount ul {
+    display: flex;
+}
+.siteCount ul li {
+    width: 20%;
+    color: #fff;
+    text-align: center;
+}
+.siteCount ul li b {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+}
+.siteCount ul li span {
+    font-size: 48px;
+    font-family: Arial;
+}
+.siteCount .join-vip {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+}
+.siteCount .join-vip a {
+    display: inline-block;
+    border: 0;
+    transition: all .3s;
+    padding: 10px 30px;
+    font-size: 15px;
+    letter-spacing: .5px;
+    background-color: var(--primary-color);
+    background-image: -webkit-gradient(linear, left top, right top, from(#006eff), to(#13adff));
+    background-image: -webkit-linear-gradient(left, #006eff, #13adff);
+    background-image: -o-linear-gradient(left, #006eff 0, #13adff 100%);
+    background-image: linear-gradient(90deg, #006eff, #13adff);
+    -webkit-box-shadow: 0 5px 10px 0 rgba(16, 110, 253, .3);
+    box-shadow: 0 5px 10px 0 rgba(16, 110, 253, .3);
+    color: #fff;
+}
+.siteCount .join-vip a:hover {
+    transform: translateY(-3px);
+}
+.siteCount .join-vip p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.80);
+    letter-spacing: .5px;
+    font-family: Arial;
+}
+@media screen and (max-width: 768px) {
+/*B2主题手机端底部网站统计*/
+.siteCount ul li span {
+    font-size: 18px;
+}
+.siteCount ul li b {
+    font-size: 12px;
+}
+}

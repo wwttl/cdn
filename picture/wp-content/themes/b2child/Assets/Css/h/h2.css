@@ -1,0 +1,63 @@
+:root {
+            --theme-color: #599bff;
+        }
+        .single-article .entry-content>h1.has-text-align-center:before,
+        .single-article .entry-content>h1:not([class]):before,
+        .single-article .entry-content>h2.has-text-align-center:before,
+        .single-article .entry-content>h2:not([class]):before,
+        .single-article .entry-content>h3.has-text-align-center:before,
+        .single-article .entry-content>h3:not([class]):before,
+        .single-article .entry-content>h4.has-text-align-center:before,
+        .single-article .entry-content>h4:not([class]):before {
+            position: absolute;
+            content: '';
+            width: 4px;
+            background: var(--theme-color);
+            top: 10%;
+            left: 2px;
+            bottom: 10%;
+            border-radius: 5px;
+            box-shadow: 1px 1px 3px -1px var(--theme-color)
+        }
+        .single-article .entry-content>h1.has-text-align-center,
+        .single-article .entry-content>h1:not([class]),
+        .single-article .entry-content>h2.has-text-align-center,
+        .single-article .entry-content>h2:not([class]),
+        .single-article .entry-content>h3.has-text-align-center,
+        .single-article .entry-content>h3:not([class]),
+        .single-article .entry-content>h4.has-text-align-center,
+        .single-article .entry-content>h4:not([class]){
+            position: relative;
+            padding-bottom: 8px
+        }
+        .single-article .entry-content>h1.has-text-align-center:before,
+        .single-article .entry-content>h1:not([class]):before,
+        .single-article .entry-content>h2.has-text-align-center:before,
+        .single-article .entry-content>h2:not([class]):before,
+        .single-article .entry-content>h3.has-text-align-center:before,
+        .single-article .entry-content>h3:not([class]):before,
+        .single-article .entry-content>h4.has-text-align-center:before,
+        .single-article .entry-content>h4:not([class]):before{
+            width: 40px;
+            height: 3px;
+            top: auto;
+            left: 0;
+            bottom: 3px;
+            transition: .4s
+        }
+        .single-article .entry-content>h1.has-text-align-center:before,
+        .single-article .entry-content>h2.has-text-align-center:before,
+        .single-article .entry-content>h3.has-text-align-center:before,
+        .single-article .entry-content>h4.has-text-align-center:before {
+            left: 0;
+            right: 0;
+            margin: auto
+        }
+
+        .single-article .entry-content>h3.has-text-align-center:before,
+        .single-article .entry-content>h3:not([class]):before,
+        .single-article .entry-content>h4.has-text-align-center:before,
+        .single-article .entry-content>h4:not([class]):before {
+            width: 25px !important;
+            height: 2px !important
+        }

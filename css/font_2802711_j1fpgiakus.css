@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "kymb"; /* Project id 2802711 */
+  src: url('../font/font_2802711_j1fpgiakus.woff2') format('woff2'),
+       url('../font/font_2802711_j1fpgiakus.woff') format('woff'),
+       url('../font/font_2802711_j1fpgiakus.ttf') format('truetype');
+}
+
+.kymb {
+  font-family: "kymb" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mbhaibijiahao:before {
+  content: "\e62c";
+}
+
+.mbjia:before {
+  content: "\e695";
+}
+
+.mbjian:before {
+  content: "\e696";
+}
+
+.mbjianhao:before {
+  content: "\e61c";
+}
+
+.mbjiahao:before {
+  content: "\e879";
+}
+
+.mbjianhao1:before {
+  content: "\e612";
+}
+
+.mbjianhao2:before {
+  content: "\e6be";
+}
+
+.mbtubiao303:before {
+  content: "\e64a";
+}
+
+.mbrecommend:before {
+  content: "\e679";
+}
+
+.mbtuijian:before {
+  content: "\e716";
+}
+
+.mbtuijianjiaobiao:before {
+  content: "\e637";
+}
+
+.mbtuijian1:before {
+  content: "\e656";
+}
+
+.mbtuijian2:before {
+  content: "\e6cd";
+}
+
+.mbtuijianyoujiang:before {
+  content: "\fb4d";
+}
+

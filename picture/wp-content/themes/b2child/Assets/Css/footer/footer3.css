@@ -1,0 +1,22 @@
+@media screen and (max-width:768px) {
+	.mobile-footer-menu.footer-fixed {
+		border-radius: 50px;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		width: 95%;
+		bottom: 10px !important;
+		box-shadow: 0px 3px 5px 5px rgb(16 16 16/10%)
+	}
+	.mobile-footer-menu .mobile-footer-center button i {
+		right: -30%;
+		position: absolute;
+		line-height: 40px !important;
+		height: 40px !important;
+		border-radius: 50% !important;
+		margin-top: -36px
+	}
+	.mobile-footer-menu.footer-down {
+		transform: translate(0, 140%) !important
+	}
+}

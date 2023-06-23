@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="10px" viewBox="0 0 6 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="官网首页13" transform="translate(-1185.000000, -685.000000)" fill="#0080FF">
+            <g id="编组-3" transform="translate(725.000000, 680.000000)">
+                <g id="编组-4" transform="translate(369.000000, 0.000000)">
+                    <g id="编组" transform="translate(94.000000, 10.000000) rotate(-90.000000) translate(-94.000000, -10.000000) translate(88.000000, 4.000000)">
+                        <path d="M6.12297077,3 L7.18363094,4.06066017 L10.8959415,7.77297077 L9.83528137,8.83363094 L6.123,5.121 L2.41066017,8.83363094 L1.35,7.77297077 L6.12297077,3 Z" id="形状结合" transform="translate(6.122971, 5.916815) rotate(-180.000000) translate(-6.122971, -5.916815) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+/*双图导航-移动端*/
+.mrxu_num1 {
+    width: 49%;
+    height: 80px;
+    float: left;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-right: 7px;
+}
+.thumb, a, a:active, a:visited {
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.html-box img {
+    display: flex;
+    width: 100%;
+}
+.mrxu_num2 {
+    width: 49%;
+    height: 80px;
+    float: revert;
+    overflow: hidden;
+    border-radius: 12px;
+}

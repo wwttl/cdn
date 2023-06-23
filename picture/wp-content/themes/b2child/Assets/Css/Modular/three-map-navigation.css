@@ -1,0 +1,26 @@
+/*三图导航-移动端*/
+    .mrxu_num1 {
+    	box-shadow: 1px 1px 3px #c8def1;
+    	width: 48%;
+    	height: 150px;
+    	float: left;
+    	overflow: hidden;
+    	border-radius: 12px;
+    }
+    .mrxu_num2 {
+    	box-shadow: 1px 1px 3px #c8def1;
+    	width: 50%;
+    	height: 70px;
+    	float: right;
+    	overflow: hidden;
+    	margin-bottom: 10px;
+    	border-radius: 12px;
+    }
+    .mrxu_num3 {
+    	box-shadow: 1px 1px 3px #c8def1;
+    	width: 50%;
+    	height: 70px;
+    	float: right;
+    	overflow: hidden;
+    	border-radius: 12px;
+    }

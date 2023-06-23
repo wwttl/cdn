@@ -1,0 +1,27 @@
+/*底部菜单*/
+    .mobile-footer-menu .footer-fixed {
+        background: rgba(255, 255, 255, 0.9)!important;
+        border-radius: 12px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        width: 90%;
+        bottom: 10px!important;
+    }
+    .mobile-footer-menu a b {
+        font-weight: 100;
+    }
+    .mobile-footer-center {
+        padding: 10px;
+    }
+    .mobile-footer-menu .mobile-footer-center button i {
+        right: -30%;
+        position: absolute;
+        line-height: 40px!important;
+        height: 40px!important;
+        border-radius: 50%!important;
+        margin-top: -40px;
+    }
+    .mobile-footer-menu .footer-down {
+        transform: translate(0,140%)!important;
+    }
